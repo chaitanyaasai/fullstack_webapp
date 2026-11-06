@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build
+client/dist/
+
+# Uploaded captures (keep folder structure via .gitkeep)
+server/uploads/recordings/*
+!server/uploads/recordings/.gitkeep
+server/uploads/screenshots/*
+!server/uploads/screenshots/.gitkeep
+
+# Issue data
+server/data/notes.txt
+!server/data/.gitkeep
+
+# Environment & logs
+*.log
+.env
+.env.local
+.DS_Store
+Thumbs.db
